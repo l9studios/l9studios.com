@@ -1,12 +1,13 @@
 import React from "react";
 import Featured from "views/Landing/Featured";
+import EmailForm from "./Components/EmailForm";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import Newsletter from "./Landing/Newsletter";
 import Reviews from "./Landing/Reviews";
+import MetaTags from "react-meta-tags";
 
-class LandingB extends React.Component {
+class Landing extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -15,6 +16,14 @@ class LandingB extends React.Component {
   render() {
     return (
       <>
+        <MetaTags>
+          <title>L9 Studios - Unity3D assets for your games</title>
+          <meta
+            name="description"
+            content="Make your Unity3D game development faster and easier with our assets"
+          />
+        </MetaTags>
+
         <Header />
         <main ref="main">
           <section>
@@ -42,7 +51,7 @@ class LandingB extends React.Component {
           </section>
 
           <section className="section bg-gradient-success">
-            <Newsletter />
+            <EmailForm />
           </section>
         </main>
         <Footer />
@@ -51,4 +60,4 @@ class LandingB extends React.Component {
   }
 }
 
-export default LandingB;
+export default Landing;
