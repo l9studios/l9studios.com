@@ -1,8 +1,9 @@
 import React from "react";
 import Featured from "views/Landing/Featured";
-import Footer from "./Footer";
-import Header from "./Header";
-import Hero from "./Landing/Hero";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import Newsletter from "./Landing/Newsletter";
 import Reviews from "./Landing/Reviews";
 
 class LandingB extends React.Component {
@@ -38,6 +39,10 @@ class LandingB extends React.Component {
 
           <section className="section">
             <Reviews />
+          </section>
+
+          <section className="section bg-gradient-success">
+            <Newsletter />
           </section>
         </main>
         <Footer />

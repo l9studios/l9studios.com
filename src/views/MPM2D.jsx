@@ -1,12 +1,12 @@
 import React from "react";
 import { Button, Col, Container, Row } from "reactstrap";
-import Footer from "./Footer";
-import Header from "./Header";
-import Hero from "./Landing/Hero";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
 import View from "./View";
 
 class MPM2D extends View {
-  
+
   render() {
     const cta = (
       <Button
