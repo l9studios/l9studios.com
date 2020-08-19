@@ -36,12 +36,12 @@ export default function Newsletter() {
       isSent: false,
     });
 
-    const form = { email: email };
+    const form = { "form-name": "newsletter", email: email };
 
     await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "newsletter", form }),
+      body: encode(form),
     })
       .then((response) => {
         if (response.status === 200 || response.status === 201) {
@@ -51,7 +51,7 @@ export default function Newsletter() {
             message: "Thank you!",
           });
         } else {
-          throw response.statusText
+          throw response.statusText;
         }
       })
       .catch((error) => {
