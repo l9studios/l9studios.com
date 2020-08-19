@@ -9,6 +9,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import MPM2D from "./views/MPM2D";
 import Supernova from "./views/Supernova";
+import Owners from "./views/Owners";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Route path="/" exact component={Landing} />
       <Route path="/mpm2d" exact component={MPM2D} />
       <Route path="/supernova" exact component={Supernova} />
+      <Route path="/owners" exact component={Owners} />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
