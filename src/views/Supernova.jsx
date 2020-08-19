@@ -68,16 +68,6 @@ export default function Supernova() {
 
             <p>* Requires Google Play Games Plugin</p>
 
-            <h4>Try it yourself:</h4>
-
-            <Button
-              color="primary"
-              href="https://l9studios.github.io/demos/supernova/index.html"
-              target="_blank"
-            >
-              Play Supernova WebGL Demo
-            </Button>
-
             <br />
             <br />
             <br />
