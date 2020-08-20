@@ -52,7 +52,7 @@ class Header extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="mailto:contact@l9studios.com"
+                      href="/contact"
                     >
                       <i className="fa fa-envelope" />
                       <span className="nav-link-inner--text ml-2">Contact</span>
