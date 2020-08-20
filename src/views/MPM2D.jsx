@@ -41,7 +41,7 @@ class MPM2D extends View {
           <Container>
             <Row className="justify-content-center">
               <Col>
-                <h4>With this asset you can easily create...</h4>
+                <h4 className="mt-0">Easily create...</h4>
                 <ul>
                   <li>Many types of moving platforms</li>
                   <li>Enemies</li>

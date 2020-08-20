@@ -131,7 +131,7 @@ class EmailForm extends React.Component {
 
 EmailForm.defaultProps = {
   formName: "EmailForm",
-  title: "Join our EmailForm!",
+  title: "Join our newsletter!",
   description:
     "Subscribe to receive the latest news on asset updates and exclusive offers. No spam.",
   actionText: "Subscribe",
