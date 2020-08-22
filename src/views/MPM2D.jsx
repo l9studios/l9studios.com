@@ -37,10 +37,11 @@ class MPM2D extends View {
             title="Moving Platform Maker 2D"
             description="The easiest solution to create 2D moving platforms!"
           />
-
           <Container>
             <Row className="justify-content-center">
               <Col>
+                <p>{cta}</p>
+
                 <h4 className="mt-0">Easily create...</h4>
                 <ul>
                   <li>Many types of moving platforms</li>
@@ -85,6 +86,18 @@ class MPM2D extends View {
                 <a href="/downloads/UnityChan2D.unitypackage">
                   Download UnityChan2D package
                 </a>
+                <br />
+                <h4>Video guides:</h4>
+                <div className="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    title="features-demo"
+                    src="https://www.youtube.com/embed/99M2doRuXWw"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
                 <br />
                 <br />
                 <p>{cta}</p>

@@ -21,9 +21,7 @@ class Supernova extends View {
     return (
       <>
         <MetaTags>
-          <title>
-            Supernova - L9 Studios - Unity3D assets for your games
-          </title>
+          <title>Supernova - L9 Studios - Unity3D assets for your games</title>
           <meta
             name="description"
             content="A complete 2D mobile project ready to publish"
@@ -41,17 +39,7 @@ class Supernova extends View {
           <Container>
             <Row className="justify-content-center">
               <Col>
-                <h4>Gameplay :</h4>
-
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    title="gameplay"
-                    src="https://www.youtube.com/embed/ec2Ke2R1wUk"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+                <p>{cta}</p>
 
                 <h4>How to play</h4>
                 <p>
@@ -84,7 +72,18 @@ class Supernova extends View {
 
                 <p>* Requires Google Play Games Plugin</p>
 
-                <br />
+                <h4>Gameplay :</h4>
+
+                <div className="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    title="gameplay"
+                    src="https://www.youtube.com/embed/ec2Ke2R1wUk"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
                 <br />
                 <br />
                 <p>{cta}</p>
