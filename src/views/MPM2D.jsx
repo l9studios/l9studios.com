@@ -1,10 +1,10 @@
 import React from "react";
+import MetaTags from "react-meta-tags";
 import { Button, Col, Container, Row } from "reactstrap";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import View from "./View";
-import MetaTags from "react-meta-tags";
 
 class MPM2D extends View {
   render() {
@@ -54,8 +54,8 @@ class MPM2D extends View {
 
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
-                    title="donut-plains"
-                    src="https://www.youtube.com/embed/96E3BDFy-Is"
+                    title="features-demo"
+                    src="https://www.youtube.com/embed/0edsaUPs-OE"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -81,6 +81,10 @@ class MPM2D extends View {
                 </Button>
 
                 <br />
+                <h4>Downloads:</h4>
+                <a href="/downloads/UnityChan2D.unitypackage">
+                  Download UnityChan2D package
+                </a>
                 <br />
                 <br />
                 <p>{cta}</p>
