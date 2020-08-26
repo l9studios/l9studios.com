@@ -67,7 +67,7 @@ class MPM2D extends View {
 
                 <Button
                   color="primary"
-                  href="https://l9studios.github.io/demos/donutplains/index.html"
+                  href="https://l9studios.com/demos/donutplains/"
                   target="_blank"
                 >
                   Play Donut Plains 3 Demo
@@ -75,7 +75,7 @@ class MPM2D extends View {
 
                 <Button
                   color="primary"
-                  href="https://l9studios.github.io/demos/forestfortress/index.html"
+                  href="https://l9studios.com/demos/forestfortress/"
                   target="_blank"
                 >
                   Play Forest Fortress Demo
