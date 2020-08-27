@@ -6,16 +6,12 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Reviews from "./Landing/Reviews";
 import MetaTags from "react-meta-tags";
+import View from "./View";
 
-class Landing extends React.Component {
-  componentDidMount() {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement.scrollTop = 0;
-    this.refs.main.scrollTop = 0;
-  }
+class Landing extends View {
   render() {
     return (
-      <>
+      <div ref="main">
         <MetaTags>
           <title>L9 Studios - Unity3D assets for your games</title>
           <meta
@@ -26,6 +22,7 @@ class Landing extends React.Component {
             name="keywords"
             content="unity,unity 3d,2d,asset,editor,extension,easy,simple,best,make,game,dev"
           />
+          <meta name="robots" content="index,follow"></meta>
         </MetaTags>
 
         <Header />
@@ -59,7 +56,7 @@ class Landing extends React.Component {
           </section>
         </main>
         <Footer />
-      </>
+      </div>
     );
   }
 }

@@ -9,7 +9,7 @@ import View from "./View";
 class MPM2D extends View {
   render() {
     return (
-      <>
+      <div ref="main">
         <MetaTags>
           <title>
             Moving Platform Maker 2D - Unity3D assets for your games
@@ -22,6 +22,7 @@ class MPM2D extends View {
             name="keywords"
             content="moving platforms,moving platform,platform,platformer,unity,unity3d,2d,asset,editor,extension,mario,super mario,easy,simple,best,make,game"
           />
+          <meta name="robots" content="index,follow"></meta>
         </MetaTags>
 
         <div ref="main">
@@ -135,7 +136,7 @@ class MPM2D extends View {
 
           <Footer />
         </div>
-      </>
+      </div>
     );
   }
 }

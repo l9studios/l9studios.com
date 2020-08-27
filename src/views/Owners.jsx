@@ -2,12 +2,18 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import MetaTags from "react-meta-tags";
 import View from "./View";
 
 class Owners extends View {
   render() {
     return (
       <div ref="main">
+        <MetaTags>
+          <title>L9 Studios - Unity3D assets for your games</title>
+          <meta name="robots" content="noindex,nofollow"></meta>
+        </MetaTags>
+
         <Header />
 
         <Container>

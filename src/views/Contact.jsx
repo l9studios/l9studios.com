@@ -15,6 +15,8 @@ import {
 } from "reactstrap";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import MetaTags from "react-meta-tags";
+import View from "./View";
 
 const encode = (data) => {
   return Object.keys(data)
@@ -22,7 +24,7 @@ const encode = (data) => {
     .join("&");
 };
 
-class Contact extends React.Component {
+class Contact extends View {
   constructor(props) {
     super(props);
 
@@ -43,7 +45,7 @@ class Contact extends React.Component {
     });
 
     const form = {
-      "form-name": 'contact',
+      "form-name": "contact",
       email: this.state.email,
       name: this.state.name,
       message: this.state.message,
@@ -73,7 +75,8 @@ class Contact extends React.Component {
         this.setState({
           alertColor: "warning",
           isSent: true,
-          alertMessage: "Unable to send the message! Try again in a few minutes!",
+          alertMessage:
+            "Unable to send the message! Try again in a few minutes!",
         });
       });
   };
@@ -95,9 +98,21 @@ class Contact extends React.Component {
       message,
     } = this.state;
     return (
-      <>
+      <div ref="main">
+        <MetaTags>
+          <title>L9 Studios - Unity3D assets for your games</title>
+          <meta
+            name="description"
+            content="Contact us!"
+          />
+          <meta
+            name="keywords"
+            content="unity,unity 3d,2d,asset,editor,extension,easy,simple,best,make,game,dev"
+          />
+          <meta name="robots" content="index,follow"></meta>
+        </MetaTags>
+        
         <Header />
-
         <section className="section section-lg section-contact-us bg-gradient-success">
           <Container id={"contact"}>
             <Row className="justify-content-center">
@@ -179,7 +194,7 @@ class Contact extends React.Component {
           </Container>
         </section>
         <Footer />
-      </>
+      </div>
     );
   }
 }

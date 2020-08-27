@@ -9,7 +9,7 @@ import View from "./View";
 class Supernova extends View {
   render() {
     return (
-      <>
+      <div ref="main">
         <MetaTags>
           <title>Supernova - Unity3D assets for your games</title>
           <meta
@@ -20,6 +20,7 @@ class Supernova extends View {
             name="keywords"
             content="mobile,game,template,unity,unity3d,2d,asset,easy,simple,best,make"
           />
+          <meta name="robots" content="index,follow"></meta>
         </MetaTags>
 
         <div ref="main">
@@ -99,7 +100,7 @@ class Supernova extends View {
 
           <Footer />
         </div>
-      </>
+      </div>
     );
   }
 }
