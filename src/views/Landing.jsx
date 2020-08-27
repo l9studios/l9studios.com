@@ -22,6 +22,10 @@ class Landing extends React.Component {
             name="description"
             content="Make your Unity3D game development faster and easier with our assets"
           />
+          <meta
+            name="keywords"
+            content="unity,unity 3d,2d,asset,editor,extension,easy,simple,best,make,game,dev"
+          />
         </MetaTags>
 
         <Header />

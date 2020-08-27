@@ -4,6 +4,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .hero-case section {
   width: 100%;
   max-width: 1000px;
@@ -16,6 +17,7 @@
   bottom: 100px;
   padding: 0px 5%;
 }
+
 .hero-background {
   width: 101%;
   height: 101%;
@@ -34,14 +36,17 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .hero-case:hover .hero-background {
   width: 110%;
   height: 110%;
 }
+
 .hero-text {
   color: white;
   text-shadow: 2px 2px 2px #000;
 }
+
 .navbar-brand {
   color: black;
 }

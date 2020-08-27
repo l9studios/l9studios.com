@@ -8,26 +8,19 @@ import View from "./View";
 
 class MPM2D extends View {
   render() {
-    const cta = (
-      <Button
-        color="success"
-        href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
-        block
-      >
-        View it in the Asset Store
-      </Button>
-    );
-
     return (
       <>
         <MetaTags>
           <title>
-            Moving Platform Maker 2D - L9 Studios - Unity3D assets for your
-            games
+            Moving Platform Maker 2D - Unity3D assets for your games
           </title>
           <meta
             name="description"
-            content="The easiest solution to create 2D moving platforms!"
+            content="The perfect solution to easily create 2D moving platforms!"
+          />
+          <meta
+            name="keywords"
+            content="moving platforms,moving platform,platform,platformer,unity,unity3d,2d,asset,editor,extension,mario,super mario,easy,simple,best,make,game"
           />
         </MetaTags>
 
@@ -35,21 +28,29 @@ class MPM2D extends View {
           <Header />
           <Hero
             title="Moving Platform Maker 2D"
-            description="The easiest solution to create 2D moving platforms!"
+            description="The perfect solution to easily create 2D moving platforms!"
           />
           <Container>
-            <Row className="justify-content-center">
+            <Row>
               <Col>
-                <p>{cta}</p>
+                <p>
+                  Moving Platform Maker 2D is a Unity3D editor extension that
+                  helps you to create 2D moving platforms the easiest way. It is
+                  a must have addon for your 2D platformer game. It will save
+                  you tons of work and time.
+                </p>
 
-                <h4 className="mt-0">Easily create...</h4>
-                <ul>
-                  <li>Many types of moving platforms</li>
-                  <li>Enemies</li>
-                  <li>Saw blades</li>
-                  <li>Jumping lavas</li>
-                  <li>There is no limit for your imagination!</li>
-                </ul>
+                <p className="mt-5">
+                  <Button
+                    color="success"
+                    href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
+                  >
+                    View it in the Asset Store
+                  </Button>
+                  <Button color="default" href="/mpm2d/documentation">
+                    Documentation
+                  </Button>
+                </p>
 
                 <h4>Take a look at the features in this quick video:</h4>
 
@@ -63,7 +64,29 @@ class MPM2D extends View {
                   ></iframe>
                 </div>
 
-                <h4>Try it yourself:</h4>
+                <h4>Easily create many types of 2D moving platforms:</h4>
+                <ul>
+                  <li>Ping pong</li>
+                  <li>Closed loop</li>
+                  <li>Connected and interchangeable paths</li>
+                  <li>Open ended paths</li>
+                  <li>Static falling platforms</li>
+                  <li>Trigger activated platforms</li>
+                  <li>Circular platforms</li>
+                  <li>Multiple objects on a path</li>
+                </ul>
+
+                <h4>
+                  And you are not limited to platforms. You can also animate:
+                </h4>
+                <ul>
+                  <li>Enemies</li>
+                  <li>Saw blades</li>
+                  <li>Jumping lavas</li>
+                  <li>and anything else you can imagine!</li>
+                </ul>
+
+                <h4>Play the demos:</h4>
 
                 <Button
                   color="primary"
@@ -81,12 +104,11 @@ class MPM2D extends View {
                   Play Forest Fortress Demo
                 </Button>
 
-                <br />
-                <h4>Downloads:</h4>
+                <h4>Related links:</h4>
                 <a href="/downloads/UnityChan2D.unitypackage">
                   Download UnityChan2D package
                 </a>
-                <br />
+
                 <h4>Video guides:</h4>
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
@@ -98,9 +120,15 @@ class MPM2D extends View {
                   ></iframe>
                 </div>
 
-                <br />
-                <br />
-                <p>{cta}</p>
+                <p className="mt-5">
+                  <Button
+                    color="success"
+                    href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
+                    block
+                  >
+                    View it in the Asset Store
+                  </Button>
+                </p>
               </Col>
             </Row>
           </Container>

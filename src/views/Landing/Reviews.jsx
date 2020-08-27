@@ -7,25 +7,29 @@ class ReviewCard extends React.Component {
     return (
       <Card className="shadow shadow-lg--hover mt-5">
         <CardBody>
-          <div className="d-flex px-3">
-            <div>
-              <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                <i className={this.props.icon} />
-              </div>
-            </div>
-            <div className="pl-4">
-              <h5 className="title text-success">{this.props.title}</h5>
-              <h6>by {this.props.author}</h6>
-              <p>{this.props.children}</p>
-              <a
-                className="text-success"
-                href={this.props.href}
-                onClick={(e) => e.preventDefault()}
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
+          <Container>
+            <Row>
+              <Col sm="1">
+                <div className="icon icon-shape bg-gradient-success rounded-circle text-white mb-2">
+                  <i className={this.props.icon} />
+                </div>
+              </Col>
+              <Col sm="11">
+                <h5 className="title text-success">{this.props.title}</h5>
+                <h6>by {this.props.author}</h6>
+              </Col>
+              <Col sm="12" lg={{ size: 11, offset: 1 }}>
+                <p>{this.props.children}</p>
+                <a
+                  className="text-success"
+                  href={this.props.href}
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Learn more
+                </a>
+              </Col>
+            </Row>
+          </Container>
         </CardBody>
       </Card>
     );

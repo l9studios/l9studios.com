@@ -8,7 +8,7 @@ class Hero extends React.Component {
         <Row>
           <Col>
             <h1>{this.props.title}</h1>
-            <p className="lead">{this.props.description}</p>
+            <p className="h5 mt-4 mb-4">{this.props.description}</p>
           </Col>
         </Row>
       </Container>

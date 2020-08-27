@@ -8,23 +8,17 @@ import View from "./View";
 
 class Supernova extends View {
   render() {
-    const cta = (
-      <Button
-        color="success"
-        href="https://assetstore.unity.com/packages/slug/60883?utm_source=l9studios.com&utm_medium=mpm2d"
-        block
-      >
-        View it in the Asset Store
-      </Button>
-    );
-
     return (
       <>
         <MetaTags>
-          <title>Supernova - L9 Studios - Unity3D assets for your games</title>
+          <title>Supernova - Unity3D assets for your games</title>
           <meta
             name="description"
             content="A complete 2D mobile project ready to publish"
+          />
+          <meta
+            name="keywords"
+            content="mobile,game,template,unity,unity3d,2d,asset,easy,simple,best,make"
           />
         </MetaTags>
 
@@ -32,20 +26,26 @@ class Supernova extends View {
           <Header />
           <Hero
             title="Supernova"
-            description="A complete 2D mobile project ready to publish. It's
-        a game of agility and concentration."
+            description="Supernova is a complete mobile game template made in Unity3D
+            for you to jumpstart your game development."
           />
 
           <Container>
-            <Row className="justify-content-center">
+            <Row>
               <Col>
-                <p>{cta}</p>
-
-                <h4>How to play</h4>
                 <p>
                   Tap left or right to move the white dwarf star and collect as
                   many planets as you can. Hurry and be careful with black
                   holes, otherwise you will become a supernova.
+                </p>
+
+                <p className="mt-5">
+                  <Button
+                    color="success"
+                    href="https://assetstore.unity.com/packages/slug/60883?utm_source=l9studios.com&utm_medium=mpm2d"
+                  >
+                    View it in the Asset Store
+                  </Button>
                 </p>
 
                 <h4>Features:</h4>
@@ -84,9 +84,15 @@ class Supernova extends View {
                   ></iframe>
                 </div>
 
-                <br />
-                <br />
-                <p>{cta}</p>
+                <p className="mt-5">
+                  <Button
+                    color="success"
+                    href="https://assetstore.unity.com/packages/slug/60883?utm_source=l9studios.com&utm_medium=mpm2d"
+                    block
+                  >
+                    View it in the Asset Store
+                  </Button>
+                </p>
               </Col>
             </Row>
           </Container>
