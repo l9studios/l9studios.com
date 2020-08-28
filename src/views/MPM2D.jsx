@@ -110,7 +110,20 @@ class MPM2D extends View {
                   Download UnityChan2D package
                 </a>
 
-                <h4>Video guides:</h4>
+                <h4>How to use the asset</h4>
+
+                <div className="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    title="features-demo"
+                    src="https://www.youtube.com/embed/Efu_CArrh8Q"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                <h4>How to configure Unity Chan 2D</h4>
+
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
                     title="features-demo"
