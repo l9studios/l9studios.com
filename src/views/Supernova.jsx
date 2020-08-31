@@ -73,6 +73,15 @@ class Supernova extends View {
 
                 <p>* Requires Google Play Games Plugin</p>
 
+                <Button
+                  color="primary"
+                  href="/demos/supernova/"
+                  target="_blank"
+                >
+                  Play Demo
+                </Button>
+
+
                 <h4>Gameplay :</h4>
 
                 <div className="embed-responsive embed-responsive-16by9">
