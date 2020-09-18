@@ -46,10 +46,7 @@ class MPM2D extends View {
                     color="success"
                     href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
                   >
-                    View it in the Asset Store
-                  </Button>
-                  <Button color="default" href="/mpm2d/documentation">
-                    Documentation
+                    Buy it in the Asset Store
                   </Button>
                 </p>
 
@@ -140,7 +137,7 @@ class MPM2D extends View {
                     href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
                     block
                   >
-                    View it in the Asset Store
+                    Buy it in the Asset Store
                   </Button>
                 </p>
               </Col>
