@@ -12,7 +12,7 @@ class MPM2D extends View {
       <div ref="main">
         <MetaTags>
           <title>
-            Moving Platform Maker 2D - Unity3D assets for your games
+            Moving Platform Maker 2D - Unity assets for your games
           </title>
           <meta
             name="description"
@@ -35,9 +35,9 @@ class MPM2D extends View {
             <Row>
               <Col>
                 <p>
-                  Moving Platform Maker 2D is a Unity3D editor extension that
+                  Moving Platform Maker 2D is a Unity editor extension that
                   helps you to create 2D moving platforms the easiest way. It is
-                  a must have addon for your 2D platformer game. It will save
+                  a must have asset for your 2D platformer game. It will save
                   you tons of work and time.
                 </p>
 

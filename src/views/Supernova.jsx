@@ -11,7 +11,7 @@ class Supernova extends View {
     return (
       <div ref="main">
         <MetaTags>
-          <title>Supernova - Unity3D assets for your games</title>
+          <title>Supernova - Unity assets for your games</title>
           <meta
             name="description"
             content="A complete 2D mobile project ready to publish"
@@ -27,8 +27,7 @@ class Supernova extends View {
           <Header />
           <Hero
             title="Supernova"
-            description="Supernova is a complete mobile game template made in Unity3D
-            for you to jumpstart your game development."
+            description="Supernova is a complete mobile game template made in Unity for you to jumpstart your game development."
           />
 
           <Container>

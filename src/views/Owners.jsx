@@ -10,7 +10,7 @@ class Owners extends View {
     return (
       <div ref="main">
         <MetaTags>
-          <title>L9 Studios - Unity3D assets for your games</title>
+          <title>L9 Studios - Unity assets for your games</title>
           <meta name="robots" content="noindex,nofollow"></meta>
         </MetaTags>
 

@@ -13,10 +13,10 @@ class Landing extends View {
     return (
       <div ref="main">
         <MetaTags>
-          <title>L9 Studios - Unity3D assets for your games</title>
+          <title>L9 Studios - Unity assets for your games</title>
           <meta
             name="description"
-            content="Make your Unity3D game development faster and easier with our assets"
+            content="Make your Unity game development faster and easier with our assets"
           />
           <meta
             name="keywords"
