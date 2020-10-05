@@ -8,12 +8,13 @@ import View from "./View";
 
 class MPM2D extends View {
   render() {
+    const link =
+      "https://assetstore.unity.com/packages/tools/physics/moving-platform-maker-2d-71886?aid=1101ldWRa&utm_source=l9studios.com&utm_medium=mpm2d";
+
     return (
       <div ref="main">
         <MetaTags>
-          <title>
-            Moving Platform Maker 2D - Unity assets for your games
-          </title>
+          <title>Moving Platform Maker 2D - Unity assets for your games</title>
           <meta
             name="description"
             content="The perfect solution to easily create 2D moving platforms!"
@@ -42,10 +43,7 @@ class MPM2D extends View {
                 </p>
 
                 <p className="mt-5">
-                  <Button
-                    color="success"
-                    href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
-                  >
+                  <Button color="success" href={link}>
                     Buy it in the Asset Store
                   </Button>
                 </p>
@@ -132,11 +130,7 @@ class MPM2D extends View {
                 </div>
 
                 <p className="mt-5">
-                  <Button
-                    color="success"
-                    href="https://assetstore.unity.com/packages/slug/71886?utm_source=l9studios.com&utm_medium=mpm2d"
-                    block
-                  >
+                  <Button color="success" href={link} block>
                     Buy it in the Asset Store
                   </Button>
                 </p>

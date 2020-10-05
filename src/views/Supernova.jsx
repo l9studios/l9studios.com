@@ -8,6 +8,9 @@ import View from "./View";
 
 class Supernova extends View {
   render() {
+    const link =
+      "https://assetstore.unity.com/packages/templates/systems/supernova-template-60883?aid=1101ldWRa&utm_source=l9studios.com&utm_medium=mpm2d";
+
     return (
       <div ref="main">
         <MetaTags>
@@ -40,11 +43,8 @@ class Supernova extends View {
                 </p>
 
                 <p className="mt-5">
-                  <Button
-                    color="success"
-                    href="https://assetstore.unity.com/packages/slug/60883?utm_source=l9studios.com&utm_medium=mpm2d"
-                  >
-                    View it in the Asset Store
+                  <Button color="success" href={link}>
+                    Buy it in the Asset Store
                   </Button>
                 </p>
 
@@ -80,7 +80,6 @@ class Supernova extends View {
                   Play Demo
                 </Button>
 
-
                 <h4>Gameplay :</h4>
 
                 <div className="embed-responsive embed-responsive-16by9">
@@ -94,12 +93,8 @@ class Supernova extends View {
                 </div>
 
                 <p className="mt-5">
-                  <Button
-                    color="success"
-                    href="https://assetstore.unity.com/packages/slug/60883?utm_source=l9studios.com&utm_medium=mpm2d"
-                    block
-                  >
-                    View it in the Asset Store
+                  <Button color="success" href={link} block>
+                    Buy it in the Asset Store
                   </Button>
                 </p>
               </Col>
